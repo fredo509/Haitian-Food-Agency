@@ -1,0 +1,118 @@
+.en-tete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sous-menu {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  font-size: small;
+  background-color: #f3f5f7;
+  border: 0.5px solid gray;
+}
+
+.sous-list {
+  border-right: 0.5px solid gray;
+  font-size: 10px;
+  padding: 5px;
+  margin: 0;
+}
+
+.sous-list:active {
+  background-color: gray;
+  color: white;
+}
+
+.sous-link:active {
+  color: white;
+  padding-bottom: 0;
+  border: none;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article {
+  text-align: center;
+  background-color: #f3f5f7;
+  border: 1px solid black;
+  padding: 10px;
+  height: 85vh;
+  width: 30%;
+  overflow-y: scroll;
+}
+
+article::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+article p::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+article p {
+  height: 100px;
+  overflow-y: scroll;
+  overflow-x: none;
+}
+
+article img {
+  width: 100%;
+  height: 55vh;
+}
+
+article img:hover {
+  width: 101%;
+  height: 55.5vh;
+}
+
+.pagination {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.pagination ul {
+  display: flex;
+  list-style: none;
+  width: 30%;
+  max-width: 200px;
+  justify-content: space-between;
+}
+
+.pagination ul li {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination ul li a {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.pagination ul li a:hover {
+  background-color: #299fdf;
+  color: white;
+}
+
+.pagination ul li a:active {
+  background-color: gray;
+  color: white;
+}
