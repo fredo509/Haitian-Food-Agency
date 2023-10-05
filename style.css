@@ -19,7 +19,9 @@ header {
   justify-content: center;
 }
 
-#logo {
+#logo,
+#logo a {
+  text-decoration: none;
   color: #243491;
   font-family: 'Gluten', cursive;
   font-weight: 500;
@@ -52,10 +54,15 @@ nav {
   margin-left: 5px;
   text-decoration: none;
   color: #299fdf;
+  padding-bottom: 5px;
 }
 
 .nav-link:hover {
   color: #243491;
+}
+
+.nav-link:active {
+  border-bottom: 2px solid gray;
 }
 
 .presentation {
@@ -74,6 +81,11 @@ nav {
   background-color: #299fdf;
   padding: 5px;
   color: #f3f5f7;
+  border: none;
+}
+
+.btn-nRecettes:hover {
+  background-color: #243491;
 }
 
 .presentation-banniere {
@@ -108,16 +120,16 @@ nav {
 
 footer {
   margin-top: 20px;
-  height: 10vh;
+  height: 11vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f3f5f7;
+  background-color: gray;
 }
 
 .footer-text {
   font-size: 10px;
-  color: #243491;
+  color: white;
   display: flex;
   justify-content: space-around;
 }
