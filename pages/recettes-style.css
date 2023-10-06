@@ -64,13 +64,13 @@ article p {
 }
 
 article img {
-  width: 100%;
+  width: 95%;
   height: 55vh;
 }
 
 article img:hover {
-  width: 101%;
-  height: 55.5vh;
+  width: 100%;
+  height: 56vh;
 }
 
 .pagination {
