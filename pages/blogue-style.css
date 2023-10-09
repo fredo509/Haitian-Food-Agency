@@ -1,0 +1,40 @@
+.blog-section {
+  flex-direction: column;
+}
+
+.blog-article {
+ display: flex;
+ height: 250px;
+ width: 100%;
+ padding: 0;
+ text-align: left;
+ margin-bottom: 20px;
+ overflow: scroll;
+}
+
+.blog-article div img {
+  width: 300px;
+  height: 249px;
+}
+
+.blog-article div img:hover {
+  width: 320px;
+  height: 270px;
+}
+
+.blog-article h3 {
+  color: #243491;
+}
+
+.blog-article p {
+  height: auto;
+}
+
+.text-group {
+  margin-left: 20px;
+}
+
+.blog-date {
+  font-size: 10px;
+  font-weight: 700;
+}
