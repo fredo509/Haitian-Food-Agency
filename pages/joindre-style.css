@@ -1,0 +1,33 @@
+.ns-joindre {
+  background-image: url(../images/food-bg.jpeg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+.joindre-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: auto;
+  font-size: 14px;
+  padding: 0;
+}
+
+.joindre-info a {
+  color: white;
+  padding: 9px;
+  text-decoration: none;
+}
+
+.joindre-info a:hover {
+  background-color: #243491;
+}
+
+.map {
+  width: 100%;
+  height: 50vh;
+  margin-top: 15px;
+  background-color: #243491;
+}
