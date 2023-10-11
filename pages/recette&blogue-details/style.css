@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  color: #243491;
+}
+
+.r-name {
+  color: black;
+  font-weight: 500;
+}
+
+.prep-info {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.r-image {
+  width: 100%;
+  height: 45vh;
+}
+
+.t-ingredient {
+  width: 100%;
+}
+
+.t-ingredient td {
+  font-size: 14px;
+  padding: 5px;
+  background-color: #f3f5f7;
+}
+
+.etapes p {
+  background-color: #f3f5f7;
+  padding: 5px;
+}
+
+.left {
+  width: 55%;
+  height: auto;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 35%;
+  height: 50%;
+  padding: 0;
+  margin-top: 25px;
+  border: 1px solid gray;
+  background-color: #f3f5f7;
+}
+
+.menu-path {
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.menu-path li {
+  margin-right: 5px;
+}
+
+.menu-path li a {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.t-desc {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.t-valeur {
+  width: 70%;
+}
+
+.t-valeur, .t-valeur td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.t-valeur th {
+  font-size: 13px;
+  padding: 3px;
+  background-color: gray;
+  color: white;
+}
+
+.t-valeur td {
+  padding: 3px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.col-menu {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.rbtn {
+  margin: auto 0;
+  height: min-content;
+}
+
+.col-menu-item li {
+  margin-bottom: 7px;
+  color: #243491;
+}
