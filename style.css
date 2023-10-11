@@ -79,9 +79,13 @@ nav {
 
 .btn-nRecettes {
   background-color: #299fdf;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
   padding: 5px;
   color: #f3f5f7;
   border: none;
+  margin: auto;
 }
 
 .btn-nRecettes:hover {

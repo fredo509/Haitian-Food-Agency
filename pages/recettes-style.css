@@ -73,6 +73,14 @@ article img:hover {
   height: 56vh;
 }
 
+.btnr {
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
+
 .pagination {
   display: flex;
   margin-top: 15px;
